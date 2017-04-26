@@ -1,7 +1,12 @@
+// This code is provided AS-IS without warranty or any claim to the suitability of its purpose
+
 // Add the line http://arduino.esp8266.com/stable/package_esp8266com_index.json 
 // under File>Preferences>Additional Boards Manager URLs
 // Tools > Boards Manager > search 'ESP8266' and install the library
 // Sketch > Include Library > Manage Libraries > search 'Neopixel' and install the Adafruit Neopixel 
+// Note that the CH340 driver is required for Windows and Mac computers:
+// https://www.wemos.cc/downloads
+// http://kig.re/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html
 
 #include <Adafruit_NeoPixel.h> // required for display
 #include <ESP8266WiFi.h> // required to use the pins on the Wemos Mini
